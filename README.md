@@ -1,5 +1,5 @@
 # Quick Sort Visualization Tool
-An interactive web-based visualization tool of the Quick Sort algorithm.
+Interactive web-based visualization tool of the Quick Sort algorithm
 
 ## Overview
 This website allows users to interactively perform the partitioning process of Quick Sort. The user selects a pivot and then places the other elements on the appropriate side of the pivot using drag and drop.
