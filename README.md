@@ -13,4 +13,4 @@ German
 HTML CSS JavaScript
 
 ## Link
-[Quick Sort Visualizer](https://farhana-hameed.github.io/quickSortVisualizer/)
+[Quick Sort Visualizer](https://farhana-hameed.github.io/quickSortVisualizationTool/)
