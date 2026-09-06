@@ -1,0 +1,132 @@
+body {
+    min-height: 100vh;
+    background: radial-gradient(rgb(45, 45, 45), rgb(30, 30, 30), rgb(10, 10, 10));
+    color: white;
+    font-family: Kanit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    font-family: Kanit;
+    font-size: 50px;
+    margin-bottom: 0;
+    color: white;
+}
+
+.intro {
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(175, 175, 175);
+}
+
+.pivotText {
+    font-size: 25px;
+    color: white;
+}
+
+#confirmButtonA, #confirmButtonB {
+    font-family: Kanit;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(91, 15, 15);
+    border: none;
+    border-radius: 20px;
+    transition: transform 0.5s;
+}
+
+#confirm:hover {
+    transform: scale(1.1);
+}
+
+.playground {
+    margin-top: 50px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(40, 40, 40);
+    border-radius: 16px;
+    box-shadow: 0 0 45px rgb(0, 0, 0, 0.5);
+}
+
+#array {
+    margin: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+#array button {
+    font-family: Share Tech Mono;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    color: rgb(30, 30, 30);
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+    box-shadow: 0 0 5px rgb(255, 255, 255, 0.5);
+    transition: transform 0.25s;
+}
+
+#array button:hover {
+    transform: scale(1.1);
+}
+
+#array .pivot {
+    font-family: Share Tech Mono;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(30, 30, 30);
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+    box-shadow: 0 0 5px black;
+}
+
+#array .fixedPivot {
+    font-family: Share Tech Mono;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(91, 15, 15);
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+    box-shadow: 0 0 7px rgb(88, 1, 1);
+}
+
+#array {
+    display: flex;
+    align-items: center;
+}
+
+.dropZone {
+    width: 10px;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.dropZone.active {
+    background-color: red;
+}
+
+.dragging {
+    opacity: 1;
+}
+
+.buttonGroup {
+    display: flex;
+    align-items: center;
+}
