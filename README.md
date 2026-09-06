@@ -6,6 +6,9 @@ This website allows users to interactively perform the partitioning process of Q
 
 The pivot is visually highlighted and remains fixed while the other elements are arranged around it. After the current step has been completed, the user can contiunue with the next pivot until the entire array is sorted.
 
+## Language
+German
+
 ## Requirements
 HTML CSS JavaScript
 
